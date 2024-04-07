@@ -62,14 +62,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Evently - Meeting Platform",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "IPhone 15 Landing Page",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
@@ -87,10 +87,12 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Liquid",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
+  "Remix.js",
   "Node.js",
   "Git",
   "Tailwind",
@@ -101,7 +103,8 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Java",
+  "Spring Boot",
+  "Figma",
   "Framer Motion",
 ] as const;
