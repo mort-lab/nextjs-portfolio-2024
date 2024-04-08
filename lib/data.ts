@@ -64,19 +64,19 @@ export const projectsData = [
   {
     title: "Evently - Meeting Platform",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments.",
+    tags: ["NextJS 14", "MongoDB", "Shadcn", "Uploadthing", "Clerk", "Stripe"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "IPhone 15 Landing Page",
+    title: "IPhone 15 - Landing Page",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Recreate the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models.",
+    tags: ["React", "GSAP", "Vite", "Tailwind", "ThreeJS"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Metaversus - Landing Page",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
