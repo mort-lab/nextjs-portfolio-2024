@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/martindev.png"
-              alt="Ricardo portrait"
+              alt="Martin portrait"
               width="192"
               height="192"
               quality="95"
@@ -63,10 +63,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Martin.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Shopify (Themes & Apps)</span>.
+        <span className="font-bold">full-stack developer </span>I enjoy building{" "}
+        <span className="italic">themes & apps for</span>{" "}
+        <span className="underline">Shopify</span>.
       </motion.h1>
 
       <motion.div

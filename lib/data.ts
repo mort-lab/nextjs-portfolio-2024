@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import appleLandingImg from "@/public/applelanding.png";
+import metaversusImg from "@/public/metaversus.png";
+import eventlyImg from "@/public/evently.png";
 
 export const links = [
   {
@@ -66,21 +66,24 @@ export const projectsData = [
     description:
       "Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments.",
     tags: ["NextJS 14", "MongoDB", "Shadcn", "Uploadthing", "Clerk", "Stripe"],
-    imageUrl: corpcommentImg,
+    imageUrl: eventlyImg,
+    liveUrl: "https://martindev-evently.vercel.app/",
   },
   {
     title: "IPhone 15 - Landing Page",
     description:
       "Recreate the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models.",
     tags: ["React", "GSAP", "Vite", "Tailwind", "ThreeJS"],
-    imageUrl: rmtdevImg,
+    imageUrl: appleLandingImg,
+    liveUrl: "https://martindev-apple-landing.vercel.app/",
   },
   {
     title: "Metaversus - Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Transform a Figma design into a fully functioning website using Next13, Framer Motion, and Tailwind CSS.",
+    tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
+    imageUrl: metaversusImg,
+    liveUrl: "https://martindev-metaversus.vercel.app/",
   },
 ] as const;
 
