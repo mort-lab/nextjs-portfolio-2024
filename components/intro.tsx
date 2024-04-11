@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/martindev.png"
+              src="/martin-fondo-azul.png"
               alt="Martin portrait"
               width="192"
               height="192"

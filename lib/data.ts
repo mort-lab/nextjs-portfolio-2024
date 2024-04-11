@@ -35,28 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "IT Service",
-    location: "Donostia, Spain",
+    title: "Java Programming - OCP Certification",
+    location: "Donostia, Spain - UCAM Murcia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "OOP, Interfaces, MVC Architecture, Lambda, Maven, APIs, JUnit testing, Preparation for Oracle Certified Programmer SE 11 Certification.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Apple Sicos Lab Internship",
-    location: "Donostia, Spain",
+    title: "Higher Degree in Web Application Development",
+    location: "Donostia, Spain - AEG Berrikuntza Eskola",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Java programming, databases, computer systems, client and server-side web development...",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Wordpress Developer",
-    location: "Donostia, Spain",
+    title: "Wordpress Fullstack Developer",
+    location: "Donostia, Spain - IDIY Technologies",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Began as a Maintenance Technician for iOS devices but transitioned to full stack development with WordPress, leading a key project for inventory digitalization and web development focused on Apple products..",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
+  },
+  {
+    title: "Customer Support Specialist",
+    location: "Donostia, Spain - Versia/Justizia.eus",
+    description:
+      "Provided comprehensive technical support to justice professionals in the Basque Country, efficiently managing incidents through justizia.eus and its incident management system. Worked closely in a team of 5, focusing on efficiency and quick problem resolution to ensure the platform's operability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
+  },
+  {
+    title: "Apple Maintenance Technician (Internship)",
+    location: "Donostia, Spain - Sicos Lab Apple",
+    description:
+      "Developed specialized skills in repairing iPhones and AirPods, enhancing my technical competency. Internship as a Technician, specializing in repairs but also performing customer service duties.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
+  },
+  {
+    title: "Intermediate Degree in Microcomputer Systems and Networks",
+    location: "Donostia, Spain - Cebanc CDEA",
+    description:
+      "Developed specialized skills in repairing iPhones and AirPods, enhancing my technical competency. Internship as a Technician, specializing in repairs but also performing customer service duties.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
 ] as const;
 
