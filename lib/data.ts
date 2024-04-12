@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import appleLandingImg from "@/public/applelanding.png";
 import metaversusImg from "@/public/metaversus.png";
 import eventlyImg from "@/public/evently.png";
+import brainwaveImg from "@/public/brainwave.png";
 
 export const links = [
   {
@@ -108,6 +109,14 @@ export const projectsData = [
     tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
     imageUrl: metaversusImg,
     liveUrl: "https://martindev-metaversus.vercel.app/",
+  },
+  {
+    title: "Brainwave - Landing Page",
+    description:
+      "Mobile first landing page for a fictional company, using React and Tailwind CSS.",
+    tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
+    imageUrl: brainwaveImg,
+    liveUrl: "https://martindev-brainwave.vercel.app/",
   },
 ] as const;
 
