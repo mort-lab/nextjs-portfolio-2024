@@ -87,6 +87,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Brainwave - Landing Page",
+    description:
+      "Mobile first landing page for a fictional company, using React and Tailwind CSS.",
+    tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
+    imageUrl: brainwaveImg,
+    liveUrl: "https://martindev-brainwave.vercel.app/",
+  },
+  {
     title: "Evently - Meeting Platform",
     description:
       "Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments.",
@@ -109,14 +117,6 @@ export const projectsData = [
     tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
     imageUrl: metaversusImg,
     liveUrl: "https://martindev-metaversus.vercel.app/",
-  },
-  {
-    title: "Brainwave - Landing Page",
-    description:
-      "Mobile first landing page for a fictional company, using React and Tailwind CSS.",
-    tags: ["React", "Next.js 13", "Figma", "Tailwind", "Framer Motion"],
-    imageUrl: brainwaveImg,
-    liveUrl: "https://martindev-brainwave.vercel.app/",
   },
 ] as const;
 
